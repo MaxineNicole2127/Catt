@@ -11,8 +11,8 @@ Catt is a simple React website that displays cat breeds and their information, a
 3. Install dependencies:
 `npm install`
 
-    *MANUAL INSTALLATION*
-    ## Dependencies
+    #### MANUAL INSTALLATION*
+    ##### Dependencies
     Catt uses the following dependencies:
     1. axios
     `npm install axios`
@@ -20,8 +20,10 @@ Catt is a simple React website that displays cat breeds and their information, a
     `npm install react-router-dom`
     3. react-slick
     `npm install react-slick --save`
-    4. Run the development server:
-    `npm run dev`
+
+
+4. Run the development server: 
+`npm run dev`
 
 ## Folder Structures
 - **src/**
