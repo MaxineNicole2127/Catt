@@ -3,6 +3,7 @@
 ## Overview
 Catt is a simple React website that displays cat breeds and their information, and allows users to save cat pictures.
 
+
 ## Getting Started
 1. Clone the repository:
 `git clone https://github.com/MaxineNicole2127/Catt.git`
@@ -11,19 +12,9 @@ Catt is a simple React website that displays cat breeds and their information, a
 3. Install dependencies:
 `npm install`
 
-    #### MANUAL INSTALLATION*
-    ##### Dependencies
-    Catt uses the following dependencies:
-    1. axios
-    `npm install axios`
-    2. react-router-dom
-    `npm install react-router-dom`
-    3. react-slick
-    `npm install react-slick --save`
-
-
 4. Run the development server: 
 `npm run dev`
+
 
 ## Folder Structures
 - **src/**
@@ -47,6 +38,7 @@ Catt is a simple React website that displays cat breeds and their information, a
     - **Modal.css** : CSS File for Modal.jsx
     - **App.jsx**: Main application component
 
+
 ## Features
 
 ### Cat Picture Collection
@@ -58,8 +50,10 @@ Catt is a simple React website that displays cat breeds and their information, a
 ### Breed Information
 - displays all cat breeds and showcases information about the breed, including its name, characteristics, life span, country of origin, energy level, affection level, and shedding level.
 
+
 ## Styling
 Catt uses simple CSS styles. App.css supplies style to the entire web app, and Modal.css supplies style specifically for Modal.jsx. The breeds section uses slick-theme.css from react-slick library.
+
 
 ## Routing
 The application uses React Router for basic navigation.
@@ -68,8 +62,22 @@ Routes:
 - '/breeds' : Breeds Card Slider
 - '/saved' : Saved Cat Pictures
 
+
 ## State Management
 Global state is managed using React Context. The AppContext provides state and actions for displaying cat pictures and breed.
 
+
 ## API Integration
 Catt interacts with TheCatAPI (https://thecatapi.com) for cat breed information and pictures. API calls are handled using the 'axios' library.
+
+
+
+#### MANUAL INSTALLATION *(optional)*
+##### Dependencies
+Catt uses the following dependencies:
+1. axios
+`npm install axios`
+2. react-router-dom
+`npm install react-router-dom`
+3. react-slick
+`npm install react-slick --save`
